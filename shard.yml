@@ -1,0 +1,13 @@
+name: tcl-crystal
+version: 0.0.1
+
+authors:
+  - Ben Bowers <nanobowers@gmail.com>
+
+targets:
+  tcl_crystal_example:
+    main: src/tcl_crystal_example.cr
+
+crystal: 1.5.0
+
+license: MIT
