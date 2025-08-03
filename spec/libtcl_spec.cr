@@ -1,6 +1,7 @@
 require "./spec_helper"
 
 describe "LibTcl" do
+  
   it "evaluates tcl code and produces results" do
     interp = LibTcl.create_interp
     LibTcl.init(interp)
@@ -11,4 +12,5 @@ describe "LibTcl" do
     result = LibTcl.eval(interp, "puts $b")
     result.should eq(LibTcl::Result::Error)
   end
+
 end
